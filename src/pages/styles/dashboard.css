@@ -1,0 +1,14 @@
+.dashboard {
+    display: flex;
+}
+
+.dashboard .dashboard-contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard .dashboard-contents .row1 {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}

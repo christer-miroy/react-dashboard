@@ -1,0 +1,44 @@
+[
+    {
+        "date": "16 Mar, 2019",
+        "name": "Elvis Presley",
+        "shipTo": "Tupelo, MS",
+        "paymentMethod": "VISA •••• 3719",
+        "saleAmt": "$312.44"
+    },
+    {
+        "date": "16 Mar, 2019",
+        "name": "Paul McCartney",
+        "shipTo": "London, UK",
+        "paymentMethod": "VISA •••• 2574",
+        "saleAmt": "$866.99"
+    },
+    {
+        "date": "16 Mar, 2019",
+        "name": "Tom Scholz",
+        "shipTo": "Boston, MA",
+        "paymentMethod": "MC •••• 1253",
+        "saleAmt": "$100.81"
+    },
+    {
+        "date": "16 Mar, 2019",
+        "name": "Michael Jackson",
+        "shipTo": "Gary, IN",
+        "paymentMethod": "AMEX •••• 2000",
+        "saleAmt": "$654.39"
+    },
+    {
+        "date": "15 Mar, 2019",
+        "name": "Bruce Springsteen",
+        "shipTo": "Long Branch, NJ",
+        "paymentMethod": "VISA •••• 5919",
+        "saleAmt": "$212.73"
+    },
+    {
+        "date": "14 Mar, 2019",
+        "name": "Taylor Swift",
+        "shipTo": "New York City, NY",
+        "paymentMethod": "JCB⠀•••• 8857",
+        "saleAmt": "$985.33"
+    }
+]

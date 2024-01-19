@@ -1,0 +1,23 @@
+.app {
+    display: flex;
+    height: 100%;
+}
+
+.app-contents {
+    flex: 1;
+    box-sizing: border-box;
+    width: 80vw;
+}
+
+.app-links {
+    padding: 10px;
+}
+
+.app-contents .app-links {
+    margin-left: 10px;
+    transition: margin-left 0.5s ease;
+}
+
+.app .sidebar.minimized ~ .app-contents .app-links {
+    margin-left: 90px;
+}

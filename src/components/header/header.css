@@ -1,0 +1,37 @@
+.header {
+    height: 50px;
+    background-color: #1871ca;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: #1871ca;
+    box-shadow: 8px 3px 5px #bcbcbc;
+}
+
+.header h5 {
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.header .bell_notif {
+    cursor: pointer;
+    position: relative;
+    margin-right: 20px;
+}
+
+.header .bell_notif .notification {
+    position: absolute;
+    top: 10%;
+    left: 10px;
+    transform: translate(0%, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #9a27ae;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}

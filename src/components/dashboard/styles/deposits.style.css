@@ -1,0 +1,16 @@
+.deposits {
+    background-color: #FFFFFF;
+    width: 20rem;
+    height: 280px;
+    padding: 20px;
+    box-shadow: 0px 8px 10px -5px #bcbcbc;
+}
+
+.deposits strong {
+    color: #1871ca;
+}
+
+.deposits p {
+    margin-bottom: 110px;
+    color: #808080;
+}
