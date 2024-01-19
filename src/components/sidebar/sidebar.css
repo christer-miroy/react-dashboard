@@ -1,6 +1,7 @@
 .sidebar {
     background-color: white;
     width: 200px;
+    height: 100vh;
     transition: width 0.5s ease;
     color: #808080;
 }

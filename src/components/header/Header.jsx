@@ -11,19 +11,21 @@ const Header = () => {
 
     switch (lastPart.toLowerCase()) {
       case 'current':
-        return 'Current Month';
+        return 'current month';
       case 'last_quarter':
-        return 'Last Quarter';
+        return 'last quarter';
       case 'yearend':
-        return 'Year-end Sale';
+        return 'year-end sale';
       default:
         return lastPart;
     }
   }
 
+  const capitalizePageName = getPageName().charAt(0).toUpperCase() + getPageName().slice(1).toLowerCase();
+
   return (
     <div className="header">
-      <h5>{getPageName()}</h5>
+      <h5>{capitalizePageName}</h5>
       <div className="bell_notif">
         <FaBell />
         <div className="notification">4</div>

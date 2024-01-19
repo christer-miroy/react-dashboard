@@ -12,6 +12,10 @@
     color: #1871ca;
 }
 
+.recentOrders a {
+    font-size: small;
+}
+
 .table {
     border-collapse: collapse;
     font-size: small;
